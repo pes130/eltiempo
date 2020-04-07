@@ -1,0 +1,7 @@
+{
+  "name": "eltiempo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
