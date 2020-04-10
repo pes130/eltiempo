@@ -1,0 +1,10 @@
+<ion-item>
+  <ion-avatar slot="start" *ngFor="let cli of prediccion.weather">
+    <img src="https://openweathermap.org/img/wn/{{cli.icon}}@2x.png">
+  </ion-avatar>
+  <ion-label>
+    <h2>{{prediccion.dt_txt | date:'EEEE dd MMMM - hh:mm'}}</h2>
+    <h3>{{prediccion.main.temp}} &#8451;</h3>
+    <p><strong>H: </strong>{{prediccion.main.humidity}}% - <strong>Nub: </strong>{{prediccion.clouds.all}}% - <strong>V: </strong>{{prediccion.wind.speed}}m/s - {{prediccion.wind.deg}}</p>
+  </ion-label>
+</ion-item>

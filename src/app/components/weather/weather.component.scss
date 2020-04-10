@@ -1,0 +1,16 @@
+ion-content ion-toolbar {
+    --background: translucent;
+  }
+  
+  #temp_min {
+    margin-left: 3px;
+  }
+  
+  #label_tiempo {
+    overflow: visible;
+  }
+  
+  #img_tiempo {
+    position: relative;
+    bottom: 12px;
+  }

@@ -1,0 +1,10 @@
+
+  <ion-list *ngIf="forecast">
+    <ion-list-header>
+      <ion-title>{{forecast.city.name}}</ion-title>
+    </ion-list-header>
+
+    <ion-list *ngFor="let dato of forecast.list">
+      <app-forecast [prediccion]="dato"></app-forecast>
+    </ion-list>
+  </ion-list>
