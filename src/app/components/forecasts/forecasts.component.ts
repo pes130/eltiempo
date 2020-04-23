@@ -8,7 +8,7 @@ import { WeatherService } from 'src/app/services/weather.service';
   styleUrls: ['./forecasts.component.scss'],
 })
 export class ForecastsComponent implements OnInit {
-
+  
   @Input() localizacion = null;
   tiempos:List[] = [];
   forecast:ForecastResponse = null;
